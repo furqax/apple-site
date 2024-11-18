@@ -1,31 +1,38 @@
 {
-  "applinks": {
-    "details": [
-      {
-        "appIDs": [
-          "4DM2CWS36Y.com.bookbetter.zapdasapp",
-          "4DM2CWS36Y.com.bookbettermerchant.io"
-        ],
-        "components": [
-          {
-            "#": "no_universal_links",
-            "exclude": true,
-            "comment": "Matches any URL with a fragment that equals no_universal_links and instructs the system not to open it as a universal link."
-          },
-          {
-            "/": "/merchants/*",
-            "comment": "Matches any URL with a path that starts with /merchants/."
-          },
-          {
-            "/": "/referer/*",
-            "comment": "Matches any URL with a path that starts with /referer/."
-          },
-          {
-            "/": "/referrer/*",
-            "comment": "Matches any URL with a path that starts with /referrer/."
-          }
+    "applinks": {
+        "details": [
+            {
+                "appIDs": ["4DM2CWS36Y.com.bookbetter.zapdasapp"],
+                "components": [
+                    {
+                        "#": "no_universal_links",
+                        "exclude": true,
+                        "comment": "Matches any URL with a fragment that equals no_universal_links and instructs the system not to open it as a universal link."
+                    },
+                    {
+                        "/": "/merchants/*",
+                        "comment": "Matches any URL with a path that starts with /merchants/."
+                    }
+                ]
+            },
+            {
+                "appIDs": ["4DM2CWS36Y.com.bookbettermerchant.io"],
+                "components": [
+                    {
+                        "#": "no_universal_links",
+                        "exclude": true,
+                        "comment": "Matches any URL with a fragment that equals no_universal_links and instructs the system not to open it as a universal link."
+                    },
+                    {
+                        "/": "/referer/*",
+                        "comment": "Matches any URL with a path that starts with /referer/."
+                    },
+                    {
+                        "/": "/referrer/*",
+                        "comment": "Matches any URL with a path that starts with /referrer/."
+                    }
+                ]
+            }
         ]
-      }
-    ]
-  }
+    }
 }
