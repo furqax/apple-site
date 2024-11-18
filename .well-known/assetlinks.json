@@ -1,0 +1,24 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.bookbetter.zapdas",
+      "sha256_cert_fingerprints": [
+        "60:84:D2:F1:2D:EB:7D:C6:36:10:64:B3:07:46:30:FB:A4:64:9E:23:48:64:F8:E1:8E:93:71:B2:22:59:C1:2E",
+        "46:B3:03:35:8D:46:A6:0B:40:43:D4:57:F8:A4:64:DF:7D:74:5A:91:D2:AD:53:DD:8D:72:DA:08:94:AE:A9:CB"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.bookbettermerchant.ioo",
+      "sha256_cert_fingerprints": [
+        "10:59:17:B4:D2:95:67:2B:11:B1:52:09:12:0E:6F:2C:31:A6:DC:EB:80:D1:11:43:A9:E3:47:07:DF:73:B8:53",
+        "46:B3:03:35:8D:46:A6:0B:40:43:D4:57:F8:A4:64:DF:7D:74:5A:91:D2:AD:53:DD:8D:72:DA:08:94:AE:A9:CB"
+      ]
+    }
+  }
+]
